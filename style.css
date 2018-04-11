@@ -1,0 +1,223 @@
+
+/* it will remove all default styles applied by the browser*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body{background:white;}
+
+.main_wrapper{
+	
+	width:1100px;
+	height:auto;
+	margin:auto;  /*align center*/
+	background:#f2f2f2;
+}
+
+.header_wrapper{
+	
+	width:1100px;
+	height:150px;
+	margin:auto;
+	margin-top:10px;
+}
+
+.content_wrapper{
+height:auto;
+width:1100px;
+margin:auto;	
+background:pink;
+}
+
+.menubar{
+	
+	width:1100px;
+	height:50px;
+	background:gray;
+	color:white;
+}
+.post{
+	float:left;
+	 margin-top:5px;
+	 margin-left:5px;
+	 
+}
+	
+.race{
+    margin:10px;
+
+}
+	
+#logo{float:left;}
+
+#banner{float:right;}
+
+#content_area{
+	
+	width:900px;
+	float:right;
+	margin:auto;
+	background:pink;
+}
+
+#post_box{
+	width:800px;
+	text-align:center;
+	margin-left:10px;
+	margin-bottom:10px;
+	padding-left:10px;
+	
+}
+
+   #single_post{
+	   
+	 float:left;
+	text-align:center; 
+	border:2px solid gray;
+
+   }
+   
+ #author{
+	 font-family:comic Sans Ms;
+	 color:blue;
+ }
+#sidebar{
+	
+	width:200px;
+	background:black;
+	float:left;
+}
+
+#footer{
+	
+	width:1100px;
+	height:30px;
+	background:white;
+	clear:both;
+}
+
+
+#menu{
+	padding:0;
+	margin:0;
+	line-height:50px;
+	float:left;
+}
+
+#menu li{
+	
+	list-style:none;
+	display:inline;
+	
+}
+
+#menu a{
+	
+	text-decoration:none;
+	color:white;
+	padding:8px;
+	margin:5px;
+	margin:18px;
+	
+}
+
+#menu a:hover{
+	color:orange;
+	font-weight:bolder;
+	text-decoration:underline;
+}
+
+#form{
+	float:right;
+	padding-right:8px;
+	line-height:50px;
+	text-decoration:none;
+}
+
+
+#sidebar_title{
+	background:#f2f2f2;
+	color:black;
+	font-size:22px;
+	font-family:arial;
+	padding:10px;
+	text-align:center;
+	text-decoration:none;
+	list-style:none;
+}
+
+#sidebar_title li{
+	list-style:none;
+}
+#sidebar_title a{
+	color:black;
+	padding:8px;
+	margin:5px;
+	text-align:center;
+	text-decoration:none;
+	font-size:22px;
+}
+
+#sidebar_title a:hover{
+	color:orange;
+	text-decoration:underline;
+}
+
+#cats{
+	
+	text-align:center;
+}
+
+#cats li{
+
+  list-style:none;
+  margin:5px;
+}
+
+#cats a{
+	color:white;
+	padding:8px;
+	margin:5px;
+	text-align:center;
+	text-decoration:none;
+	font-size:20px;
+	font-family:comic Sans Ms;
+}
+
+#cats a:hover{
+	color:orange;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+#button{
+	float:right;
+}
