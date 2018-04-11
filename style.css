@@ -32,14 +32,14 @@ footer, header, hgroup, menu, nav, section {
 }
 
 
-body{background:white;}
+body{background:skyblue;}
 
 .main_wrapper{
 	
 	width:1100px;
 	height:auto;
 	margin:auto;  /*align center*/
-	background:#f2f2f2;
+	background:pink;
 }
 
 .header_wrapper{
@@ -51,7 +51,7 @@ body{background:white;}
 }
 
 .content_wrapper{
-height:auto;
+
 width:1100px;
 margin:auto;	
 background:pink;
@@ -69,13 +69,7 @@ background:pink;
 	 margin-top:5px;
 	 margin-left:5px;
 	 
-}
-	
-.race{
-    margin:10px;
-
-}
-	
+	}
 #logo{float:left;}
 
 #banner{float:right;}
@@ -83,9 +77,10 @@ background:pink;
 #content_area{
 	
 	width:900px;
-	float:right;
-	margin:auto;
-	background:pink;
+	float:center;
+	height:350px;
+	text-align:center;
+		background:pink;
 }
 
 #post_box{
@@ -113,14 +108,14 @@ background:pink;
 	
 	width:200px;
 	background:black;
-	float:left;
+	float:right;
 }
 
 #footer{
 	
 	width:1100px;
-	height:30px;
-	background:white;
+	height:100px;
+	background:gray;
 	clear:both;
 }
 
@@ -164,7 +159,7 @@ background:pink;
 
 
 #sidebar_title{
-	background:#f2f2f2;
+	background:white;
 	color:black;
 	font-size:22px;
 	font-family:arial;
@@ -174,26 +169,11 @@ background:pink;
 	list-style:none;
 }
 
-#sidebar_title li{
-	list-style:none;
-}
-#sidebar_title a{
-	color:black;
-	padding:8px;
-	margin:5px;
-	text-align:center;
-	text-decoration:none;
-	font-size:22px;
-}
 
-#sidebar_title a:hover{
-	color:orange;
-	text-decoration:underline;
-}
 
 #cats{
 	
-	text-align:center;
+	text-align:left;
 }
 
 #cats li{
@@ -203,21 +183,21 @@ background:pink;
 }
 
 #cats a{
-	color:white;
+	color:orange;
 	padding:8px;
 	margin:5px;
-	text-align:center;
+	text-align:left;
 	text-decoration:none;
-	font-size:20px;
+	font-size:17px;
 	font-family:comic Sans Ms;
 }
 
+#cats img{
+	border:2px solid white; padding:4px;
+}
 #cats a:hover{
-	color:orange;
-	font-weight:bold;
+	color:white;
+	font-weight:bolder;
 	text-decoration:underline;
 }
 
-#button{
-	float:right;
-}
